@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    min-height: 60px;
+    height: 8%;
+    width: 100%;
+    border-bottom: 1px ridge #E0E0E0;
+}
+.fixheader{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: white;
+}
+.fixaside{
+    position: fixed;
+    top: 8%;
+    left: 0px;
+}
+aside{
+    float: left;
+    min-height: 700px;
+    width: 14.9%;
+    height: 100%;
+}
+section{
+    background-color: #F0F0F0;
+    min-height: 560px;
+    float: right;
+    width: 85%;
+     border-left: 1px ridge #E0E0E0;
+}
+.headersub{
+    float: left;
+    width: 85%;
+    height: 40px;
+    border-left: 1px ridge #E0E0E0;
+}
+.searchbox{
+    margin-top: 20px;
+    height: 30px;
+    width: 40%;
+    font-size: 20px;
+}
+.searchbutton{
+    height: 34px;
+    width: 7%;
+}
+.upload{
+    margin-top: 20px;
+    height: 34px;
+    width: 7%;
+    float: right;
+    margin-right: 40px;
+}
+.mainsection{
+    margin: 20px 70px;
+    background-color: white;
+}
+.mainsection img:hover{
+    
+}
+footer{
+    width: 85%;
+    height: 100px;
+    float: right;
+    border top: 1px ridge #E0E0E0;
+     border-left: 1px ridge #E0E0E0;
+}
+.hdimg{
+    float: left;
+    display: block;
+    height: 8%;
+    width: 14.9;
+    margin: 0px 40px;
+}
+hr{
+    margin: 0% 10%;
+}
+.tableset ul{
+    margin: 10px 0px;
+}
+.tableset li{
+    text-decoration: none;
+    display: block;
+    margin: 0px 10px;
+    padding: 5px 30px;
+}
+.tableset li:hover{
+    background-color: grey;
+    color: white;
+}
+#selected{
+    background-color: firebrick;
+    color: white;
+}
+.headersub{
+    padding-top: 20px;
+    text-align: center;
+    color: grey;
+    height: 20px;
+}
+.headersub li{
+    display: inline;
+    margin-left: 15px;
+}
+.headersub li:hover{
+    border-bottom: 2px solid red;
+    color: black;
+}
+.footerimg{
+    padding-left: 120px;
+    margin-top: 12px;
+    align-self: center;
+}
+.footerimg li{
+    display: inline;
+    padding-left: 20px;
+}
+.mainsection img{
+    padding-left: 18px;
+    padding-top: 18px;
+    width: 177px;
+    height: 120px;
+    border: 0px;
+}
+.mainsection h4{
+    padding-left: 18px;
+    word-wrap: normal;
+    text-decoration: none;
+    color: blue;
+}
+.mainsection a{
+    text-decoration: none;
+    font-style: normal;
+}
